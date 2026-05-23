@@ -26,14 +26,16 @@ class OnboardingScreen extends StatelessWidget {
                       height: 90,
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
-                        color: AppColors.glassCard,
+                        color: Colors.white,
                         border:
                             Border.all(color: AppColors.glassBorder, width: 1.5),
                       ),
-                      child: const Icon(
-                        Icons.eco_rounded,
-                        size: 48,
-                        color: AppColors.accentGreen,
+                      child: Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Image.asset(
+                          'assets/images/agriconnect copped.png',
+                          fit: BoxFit.contain,
+                        ),
                       ),
                     ),
                     const SizedBox(height: 20),
