@@ -1,5 +1,5 @@
 class ApiConstants {
-  static const String serverUrl = 'http://[IP_ADDRESS]';
+  static const String serverUrl = 'https://agriconnect-api-q5rw.onrender.com';
 
   static const String baseUrl = '$serverUrl/api';
 
