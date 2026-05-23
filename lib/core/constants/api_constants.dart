@@ -1,6 +1,6 @@
 class ApiConstants {
-  // static const String serverUrl = 'http://localhost:3000';
-  static const String serverUrl = 'http://192.168.1.22:3000';
+  static const String serverUrl = 'http://[IP_ADDRESS]';
+
   static const String baseUrl = '$serverUrl/api';
 
   // Auth
